@@ -7,16 +7,32 @@
 </head>
 
 <body>
-	<div id="bm"> </div>
+	<div id="alpha" class="thisthis alpha"></div>
+	<div id="beta" class="thisthis beta"></div>
+	<div id="chroma" class="thisthis chroma"></div>
+	<div id="delta" class="thisthis delta"></div>
+	<div id="etha" class="thisthis etha"></div>
+	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.6.5/lottie.js" type="text/javascript"></script>
 	<script>
+		//var loader = document.getElementsByClassName('heree'),
+		//params = {
+		//	container: loader,
+		//	renderer: 'svg',
+		//	loop: true,
+		//	autoplay: true,
+		//	path: 'Chum.json'
+		//},
+		//animation = lottie.loadAnimation(params);
+		
 		lottie.loadAnimation({
-		  container: document.getElementById('bm'), // the dom element that will contain the animation
+		  container: document.getElementById('alpha'), // the dom element
 		  renderer: 'svg',
 		  loop: true,
 		  autoplay: true,
-		  path: 'Chum.json' // the path to the animation json
+		  path: 'Chum.json'
 		});
+		
 		lottie.play();
 	</script>
 </body>
